@@ -1,0 +1,108 @@
+body {
+    background-image: url(/img/52901.jpg);
+    
+  }
+  main{
+    display: grid;
+    grid-template-rows: 30% 5% 60% ;
+    margin-bottom: 20px;
+  }
+  .titulo {
+    margin: 55px;
+  }
+  
+  .sobremi{
+  border: solid;
+  margin-top: 10px;
+  margin-left: 25%;
+  margin-right: 25%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  box-shadow:  0px 0px 20px 0px red;
+  
+  }
+  
+  @media(max-width: 768px){
+  
+    .sobremi{
+    
+    display: grid;
+    grid-template-rows: 40% 60%;
+    height: 500px;
+    margin-left: 15%;
+  margin-right: 15%;
+    }
+    
+    
+  }
+  
+  
+  .recuadro_foto{
+    display: grid;
+  grid-column-start: 2;
+  border: solid;
+  width: 80%;
+  height: 50%;
+  margin-top: 70px;
+  }
+  
+  @media(max-width: 768px){
+  
+  .recuadro_foto{
+  
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 2;
+  width: 70%;
+  height: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  }
+  
+  }
+  
+  p{
+  
+  display: grid;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  padding: 30px;
+  margin-top: 70px;
+  
+  }
+  
+  @media(max-width: 768px){
+  
+  p{
+      display: grid;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-top: 0px;
+  }
+  
+  
+  }
+
+a{
+  text-decoration: none;
+}
+
+.navbar-toggler-icon{
+  background-color: rgb(224, 34, 34);
+}
+
+h2 {
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  margin: 0 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+

@@ -1,0 +1,66 @@
+<%- include('./partials/head') %>
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+</head>
+
+<body>
+  <div class="container ">
+    <header
+      class="d-flex flex-wrap justify-content-end py-3 mb-4 border-bottom"
+    >
+    <nav class="navbar navbar-expand-md">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#opciones">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="opciones">
+
+        <button type="button" class="btn btn-outline-secondary"><a class="text-white" href="/">Inicio</a></button>
+        <button type="button" class="btn btn-outline-secondary">
+          <a class="text-white" href="/estudios">Estudios</a>
+        </button>
+        <button type="button" class="btn btn-outline-secondary">
+          <a class="text-white" href="/experiencia">Proyectos</a>
+        </button>
+        <button type="button" class="btn btn-outline-secondary">
+          <a class="text-white" href="/conocimientos">Conocimientos</a>
+        </button>
+      </div>
+
+    </nav>
+    </header>
+  </div>
+  <main>
+    <div class="titulo">
+      <h2 class="text-end text-white display-6"><em>Portfolio</em></h2>
+      <h1 class="text-end text-white display-4"><em>Fabián Villagra</em></h1>
+      <h3 class="text-end text-white display-6">Desarrollador de Software</h3>
+    </div>
+
+
+    <center><h2 class="text-white">
+      <span id="letter-1">S</span> 
+      <span id="letter-2">O</span>
+      <span id="letter-3">B</span>
+      <span id="letter-4">R</span>
+      <span id="letter-5">E</span>
+      <span id="letter-6">M</span>
+      <span id="letter-7">I</span>
+    </h2></center>
+
+    <div class="sobremi">
+
+      <div class="recuadro_foto"> 
+        <img src="/img/foto-de-mi.jpg" width="100%" height="180">
+
+      </div>
+
+        <p class="text-white"><em>Hola, me llamo Fabian Villagra soy un desarrollador de Software especializado mas al ambito del gamming, me gusta todo lo relacionado a la informatica en general ya sea el software o el hardware.</em></p>
+
+
+    </div>
+  </main>
+
+<script src="/js/index.js"></script>
+
+
+<%- include('./partials/footer') %>
